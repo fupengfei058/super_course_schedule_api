@@ -5,4 +5,4 @@
 * 从教务系统抓取个人课表
 * 从教务系统抓取个人成绩
 * 操作本地数据库发表、删除树洞及评论
-详细介绍参见[微信端Github地址](https://github.com/fupengfei058/super_course_schedule)
+### 详细介绍参见[微信端Github地址](https://github.com/fupengfei058/super_course_schedule)
