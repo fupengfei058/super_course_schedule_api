@@ -1,6 +1,13 @@
 <?php
 
-defined('BASEPATH') OR exit('No direct script access allowed');
+/*
+ * This file is part of PHP CS Fixer.
+ * (c) php-team@yaochufa <php-team@yaochufa.com>
+ * This source file is subject to the MIT license that is bundled
+ * with this source code in the file LICENSE.
+ */
+
+defined('BASEPATH') or exit('No direct script access allowed');
 
 class Reply_lib
 {
@@ -8,7 +15,7 @@ class Reply_lib
 
     public function __construct()
     {
-        $this->CI =& get_instance();
+        $this->CI =&get_instance();
         $this->CI->load->model('reply_model');
     }
 }
